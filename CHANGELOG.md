@@ -3,6 +3,22 @@
 Each release usually includes various fixes and improvements.
 The most noteworthy of these, as well as any features and breaking changes, are listed here.
 
+## v4.0.8
+* Updated koe to [`2.0.3-rc2`](https://github.com/KyokoBot/koe/releases/tag/2.0.3-rc2) & use voice gateway `v8` in https://github.com/lavalink-devs/Lavalink/pull/1097
+* Updated Lavaplayer to [`2.2.2`](https://github.com/lavalink-devs/lavaplayer/releases/tag/2.2.2) in https://github.com/lavalink-devs/Lavalink/pull/1105
+* Allow usage of non-allocating frame buffers in https://github.com/lavalink-devs/Lavalink/pull/1095
+* Added shutdown handling to close sessions cleanly in https://github.com/lavalink-devs/Lavalink/pull/1102
+
+## v4.0.7
+* Updated Lavaplayer to [`2.2.1`](https://github.com/lavalink-devs/lavaplayer/releases/tag/2.2.1)
+* Updated spring-boot to `3.3.0` & spring-websocket to `6.1.9`
+* Updated kotlin to `2.0.0` & kotlinx-serialization-json to `1.7.0`
+* Updated logback to `1.5.6` & sentry-logback to `7.10.0`
+
+## v4.0.6
+* Updated Lavaplayer to [`2.2.0`](https://github.com/lavalink-devs/lavaplayer/releases/tag/2.2.0)
+* Updated Koe to [`2.0.2`](https://github.com/KyokoBot/koe/releases/tag/2.0.2)
+
 ## v4.0.5
 * Updated Lavaplayer to [`2.1.2`](https://github.com/lavalink-devs/lavaplayer/releases/tag/2.1.2)
 * Updated Koe to [`2.0.1`](https://github.com/KyokoBot/koe/releases/tag/2.0.1) (fixes the `IndexOutOfBoundsException` when playing a YouTube track)
@@ -13,7 +29,7 @@ The most noteworthy of these, as well as any features and breaking changes, are 
 > The default Youtube source is now deprecated and won't receive further updates. Please use https://github.com/lavalink-devs/youtube-source#plugin instead.
 
 ## v4.0.4
-* Update Lavaplayer to [`2.1.1`](https://github.com/lavalink-devs/lavaplayer/releases/tag/2.1.1)
+* Updated Lavaplayer to [`2.1.1`](https://github.com/lavalink-devs/lavaplayer/releases/tag/2.1.1)
 
 ## v4.0.3
 * Fixed plugins not registering (introduced in [`4.0.2`](https://github.com/lavalink-devs/Lavalink/releases/tag/4.0.2))
